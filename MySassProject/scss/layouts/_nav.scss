@@ -1,0 +1,17 @@
+/* _nav.scss Document */
+
+nav {
+	height: 30px;
+	background-color: $secondary-color;
+	color: #fff;
+	padding-top: 10px;
+	
+	ul li{
+		float: left;
+		padding: 0 20px 0 20px;
+		
+		a {
+			color: #fff;
+		}	
+	}
+}

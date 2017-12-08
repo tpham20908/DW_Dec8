@@ -1,0 +1,38 @@
+{
+	"version": 3,
+	"file": "../scss/main.css",
+	"sources": [
+		"../scss/main.scss",
+		"../scss/base/_variables.scss",
+		"../scss/base/_mixins.scss",
+		"../scss/base/_normalize.scss",
+		"../scss/base/_reset.scss",
+		"../scss/base/_base.scss",
+		"../scss/layouts/_header.scss",
+		"../scss/layouts/_nav.scss",
+		"../scss/layouts/_footer.scss",
+		"../scss/modules/_typography.scss",
+		"../scss/modules/_buttons.scss",
+		"../scss/modules/_blocks.scss",
+		"../scss/modules/_sections.scss",
+		"../scss/modules/_components.scss"
+	],
+	"sourcesContent": [
+		"/* main.scss Document */\r\n/* developed by: jian zhao */\r\n/* Script Date: December 8, 2017 */\r\n\r\n@import 'base/_variables.scss';\r\n@import 'base/_mixins.scss';\r\n@import 'base/_normalize.scss';\r\n@import 'base/_reset.scss';\r\n@import 'base/_base.scss';\r\n\t\r\n@import 'layouts/_header.scss';\r\n@import 'layouts/_nav.scss';\r\n@import 'layouts/_footer.scss';\r\n\t\r\n@import 'modules/_typography.scss';\r\n@import 'modules/_buttons.scss';\r\n@import 'modules/_blocks.scss';\r\n@import 'modules/_sections.scss';\r\n@import 'modules/_components.scss';\r\n\r\n",
+		"/* _variables.scss Document */\r\n\r\n$primary-color: #f00;\r\n$secondary-color: #333;",
+		"/* _mixins Document */\r\n\r\n@mixin border-radius($radius){\r\n\tborder-radius: $radius;\r\n}\r\n\r\n",
+		"/* CSS Document */\r\n\r\n",
+		"/* _reset.scss Document */\r\n\r\n/* http://meyerweb.com/eric/tools/css/reset/ \r\n   v2.0 | 20110126\r\n   License: none (public domain)\r\n*/\r\n\r\nhtml, body, div, span, applet, object, iframe,\r\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\r\na, abbr, acronym, address, big, cite, code,\r\ndel, dfn, em, img, ins, kbd, q, s, samp,\r\nsmall, strike, strong, sub, sup, tt, var,\r\nb, u, i, center,\r\ndl, dt, dd, ol, ul, li,\r\nfieldset, form, label, legend,\r\ntable, caption, tbody, tfoot, thead, tr, th, td,\r\narticle, aside, canvas, details, embed, \r\nfigure, figcaption, footer, header, hgroup, \r\nmenu, nav, output, ruby, section, summary,\r\ntime, mark, audio, video {\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n\tborder: 0;\r\n\tfont-size: 100%;\r\n\tfont: inherit;\r\n\tvertical-align: baseline;\r\n}\r\n/* HTML5 display-role reset for older browsers */\r\narticle, aside, details, figcaption, figure, \r\nfooter, header, hgroup, menu, nav, section {\r\n\tdisplay: block;\r\n}\r\nbody {\r\n\tline-height: 1;\r\n}\r\nol, ul {\r\n\tlist-style: none;\r\n}\r\nblockquote, q {\r\n\tquotes: none;\r\n}\r\nblockquote:before, blockquote:after,\r\nq:before, q:after {\r\n\tcontent: '';\r\n\tcontent: none;\r\n}\r\ntable {\r\n\tborder-collapse: collapse;\r\n\tborder-spacing: 0;\r\n}\r\n\r\n",
+		"/* _base.scss Document */\r\n\r\nbody {\r\n\tfont-family: Constantia, \"Lucida Bright\", \"DejaVu Serif\", Georgia, \"serif\";\r\n\tfont-size : 14px;\r\n\tcolor: #666;\r\n\tline-height: 1.5em;\r\n\tbackground-color: #f4f4f4;\r\n}\r\n\r\n#container{\r\n\twidth: 960px;\r\n\tmargin: 20px auto;\r\n\toverflow: auto;\r\n\tborder: 1px solid #ccc;\r\n\r\n\t@include border-radius(20px);\r\n}\r\n\r\n#main {\r\n\tmin-height: 200px;\r\n}\r\n",
+		"/* _header.scss Document */\r\n\r\nheader {\r\n\tbackground-color: $primary-color;\r\n\tcolor: #fff;\r\n\theight: 90px;\r\n\t\r\n\th1{\r\n\t\tpadding: 20px 0 0 10px;\r\n\t}\r\n}\r\n\r\n",
+		"/* _nav.scss Document */\r\n\r\nnav {\r\n\theight: 30px;\r\n\tbackground-color: $secondary-color;\r\n\tcolor: #fff;\r\n\tpadding-top: 10px;\r\n\t\r\n\tul li{\r\n\t\tfloat: left;\r\n\t\tpadding: 0 20px 0 20px;\r\n\t\t\r\n\t\ta {\r\n\t\t\tcolor: #fff;\r\n\t\t}\t\r\n\t}\r\n}\r\n",
+		"/* _footer.scss Document */\r\n\r\nfooter{\r\n\tpadding: 20px;\r\n\tbackground-color: $secondary-color;\r\n\ttext-align: center;\r\n\tcolor: #fff;\r\n}",
+		"/* CSS Document */\r\n\r\n",
+		"/* CSS Document */\r\n\r\n",
+		"/* CSS Document */\r\n\r\n",
+		"/* CSS Document */\r\n\r\n",
+		"/* CSS Document */\r\n\r\n"
+	],
+	"mappings": "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",
+	"names": []
+}

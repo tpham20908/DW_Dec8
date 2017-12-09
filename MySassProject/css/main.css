@@ -1,141 +1,59 @@
-/* main.scss Document */
-/* developed by: jian zhao */
-/* Script Date: December 8, 2017 */
-/* _variables.scss Document */
-/* _mixins Document */
-/* CSS Document */
-/* _reset.scss Document */
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+/*
+Error: Invalid CSS after "0": expected expression (e.g. 1px, bold), was ";"
+        on line 25 of css/main.css
+
+20: table, caption, tbody, tfoot, thead, tr, th, td,
+21: article, aside, canvas, details, embed,
+22: figure, figcaption, footer, header, hgroup,
+23: menu, nav, output, ruby, section, summary,
+24: time, mark, audio, video {
+25:   margin: 0;
+26:   padding: 0;
+27:   border: 0;
+28:   font-size: 100%;
+29:   font: inherit;
+30:   vertical-align: baseline; }
+
+Backtrace:
+css/main.css:25
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1278:in `expected'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/script/lexer.rb:231:in `expected!'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/script/parser.rb:762:in `assert_done'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/script/parser.rb:69:in `parse'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/script/parser.rb:228:in `parse'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/script.rb:27:in `parse'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/engine.rb:1177:in `parse_script'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/engine.rb:749:in `parse_property'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/engine.rb:708:in `parse_property_or_rule'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/engine.rb:667:in `parse_line'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/engine.rb:540:in `build_tree'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/engine.rb:559:in `block in append_children'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/engine.rb:558:in `each'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/engine.rb:558:in `append_children'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/engine.rb:549:in `block in build_tree'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/engine.rb:542:in `each'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/engine.rb:542:in `build_tree'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/engine.rb:559:in `block in append_children'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/engine.rb:558:in `each'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/engine.rb:558:in `append_children'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/engine.rb:417:in `_to_tree'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:209:in `each'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:294:in `watch'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/plugin.rb:109:in `method_missing'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:51:in `process_result'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/exec/base.rb:52:in `parse'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/exec/base.rb:19:in `parse!'
+C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/sass-3.5.3/bin/sass:13:in `<top (required)>'
+C:/RailsInstaller/Ruby2.3.0/bin/sass:22:in `load'
+C:/RailsInstaller/Ruby2.3.0/bin/sass:22:in `<main>'
 */
-/* line 8, D:/TP/05-WebDesign/MySass/DW_Dec8/MySassProject/scss/base/_reset.scss */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-/* HTML5 display-role reset for older browsers */
-/* line 29, D:/TP/05-WebDesign/MySass/DW_Dec8/MySassProject/scss/base/_reset.scss */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-
-/* line 33, D:/TP/05-WebDesign/MySass/DW_Dec8/MySassProject/scss/base/_reset.scss */
-body {
-  line-height: 1;
-}
-
-/* line 36, D:/TP/05-WebDesign/MySass/DW_Dec8/MySassProject/scss/base/_reset.scss */
-ol, ul {
-  list-style: none;
-}
-
-/* line 39, D:/TP/05-WebDesign/MySass/DW_Dec8/MySassProject/scss/base/_reset.scss */
-blockquote, q {
-  quotes: none;
-}
-
-/* line 42, D:/TP/05-WebDesign/MySass/DW_Dec8/MySassProject/scss/base/_reset.scss */
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-
-/* line 47, D:/TP/05-WebDesign/MySass/DW_Dec8/MySassProject/scss/base/_reset.scss */
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* _base.scss Document */
-/* line 3, D:/TP/05-WebDesign/MySass/DW_Dec8/MySassProject/scss/base/_base.scss */
-body {
-  font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
-  font-size: 14px;
-  color: #666;
-  line-height: 1.5em;
-  background-color: #f4f4f4;
-}
-
-/* line 11, D:/TP/05-WebDesign/MySass/DW_Dec8/MySassProject/scss/base/_base.scss */
-#container {
-  width: 960px;
-  margin: 20px auto;
-  overflow: auto;
-  border: 1px solid #ccc;
-  border-radius: 20px;
-}
-
-/* line 20, D:/TP/05-WebDesign/MySass/DW_Dec8/MySassProject/scss/base/_base.scss */
-#main {
-  min-height: 200px;
-}
-
-/* _header.scss Document */
-/* line 3, D:/TP/05-WebDesign/MySass/DW_Dec8/MySassProject/scss/layouts/_header.scss */
-header {
-  background-color: #f00;
-  color: #fff;
-  height: 90px;
-}
-
-/* line 8, D:/TP/05-WebDesign/MySass/DW_Dec8/MySassProject/scss/layouts/_header.scss */
-header h1 {
-  padding: 20px 0 0 10px;
-}
-
-/* _nav.scss Document */
-/* line 3, D:/TP/05-WebDesign/MySass/DW_Dec8/MySassProject/scss/layouts/_nav.scss */
-nav {
-  height: 30px;
-  background-color: #333;
-  color: #fff;
-  padding-top: 10px;
-}
-
-/* line 9, D:/TP/05-WebDesign/MySass/DW_Dec8/MySassProject/scss/layouts/_nav.scss */
-nav ul li {
-  float: left;
-  padding: 0 20px 0 20px;
-}
-
-/* line 13, D:/TP/05-WebDesign/MySass/DW_Dec8/MySassProject/scss/layouts/_nav.scss */
-nav ul li a {
-  color: #fff;
-}
-
-/* _footer.scss Document */
-/* line 3, D:/TP/05-WebDesign/MySass/DW_Dec8/MySassProject/scss/layouts/_footer.scss */
-footer {
-  padding: 20px;
-  background-color: #333;
-  text-align: center;
-  color: #fff;
-}
-
-/* CSS Document */
-/* CSS Document */
-/* CSS Document */
-/* CSS Document */
-/* CSS Document */
-
-/*# sourceMappingURL=../css/main.map */
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"0\": expected expression (e.g. 1px, bold), was \";\"\A         on line 25 of css/main.css\A \A 20: table, caption, tbody, tfoot, thead, tr, th, td,\A 21: article, aside, canvas, details, embed,\A 22: figure, figcaption, footer, header, hgroup,\A 23: menu, nav, output, ruby, section, summary,\A 24: time, mark, audio, video {\A 25:   margin: 0;\A 26:   padding: 0;\A 27:   border: 0;\A 28:   font-size: 100%;\A 29:   font: inherit;\A 30:   vertical-align: baseline; }"; }
